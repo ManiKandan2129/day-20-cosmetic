@@ -1,15 +1,18 @@
 body{
-    background-color: rgb(236, 217, 234);
+    background-color: #072e33;
 }
 
 .card-img-top{
     height: 200px;
     border-radius: 5px;
+    object-fit: fill;
 }
 
 .heading{
     margin-bottom: 50px;
     margin-top: 20px;
+    color: red;
+    font-weight: bold;
 }
 .col-sm-12{
     display: flex;
@@ -33,13 +36,11 @@ body{
     text-align: center;
 
 }
-.price-tag{
-    
-    color: rgb(239, 31, 163);
+.card-title{
+    color: red;
     font-weight: bold;
-    
 }
-.btn{
-    background-color: rgb(237, 145, 160);
-    border-style: none;
+.card-text{
+    color: #ae445a;
 }
+
